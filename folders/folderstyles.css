@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    color: #189288;
+    background-image: url("/imgs/folderbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hamsterdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.hamsterpic {
+    width: 50%;
+    opacity: 70%;   
+}
+
+.hamstertext {
+    margin-top: 10px;
+    font-family: "Dynalight", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.2vw;
+}
+
+.playhead {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playhead img {
+    width: 30%;
+}
+
+.writingdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+#writing {
+    width: 70%;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Dynalight", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.2vw;
+}

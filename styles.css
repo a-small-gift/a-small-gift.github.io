@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    color: #921822;
+    background-image: url("imgs/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** Heading Text **/
+
+.headingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.heading1 {
+    font-family: "Dynalight", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20vw;
+}
+
+.heading2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25vw;
+}
+
+/** Folders **/
+
+.folders {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 25vh 25vh 25vh 25vh 25vh;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.folderman {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.folder {
+    width: 30vw;
+}
+
+.foldertext {
+    color: #921822;
+    font-size: 10vw;
+    font-family: "Dynalight", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+/**
+.folders {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.folder {
+    width: 40vw;
+}
+
+**/
